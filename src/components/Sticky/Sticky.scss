@@ -1,0 +1,45 @@
+@import "../../config/variables.scss";
+
+.sticky_wrap {
+  text-align: center;
+  background-color: #0585f3;
+
+  &.off {
+    display: none;
+  }
+
+  .sticky_inwrap {
+    position: relative;
+    height: 50px;
+
+    a {
+      display: block;
+
+      span {
+        color: #fff;
+        font-size: 1.8rem;
+        line-height: 50px;
+        letter-spacing: -1px;
+      }
+    }
+
+    button {
+      position: absolute;
+      top: 50%;
+      right: 0;
+      transform: translateY(-50%);
+      width: 18px;
+      height: 18px;
+    }
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .sticky_wrap {
+    .sticky_inwrap {
+      button {
+        right: 20px;
+      }
+    }
+  }
+}

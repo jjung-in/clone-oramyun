@@ -1,0 +1,55 @@
+@import "../../config/variables.scss";
+
+#coupon {
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 24px;
+  line-height: 24px;
+  color: #ffffff;
+  font-size: 10px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+
+  -webkit-animation-name: floating;
+  -moz-animation-name: floating;
+  animation-name: floating;
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  -moz-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+
+  &.blue {
+    background: $blue;
+
+    &::before {
+      background: $blue;
+    }
+  }
+
+  &.orange {
+    background: $orange;
+
+    &::before {
+      background: $orange;
+    }
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: -4px;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    width: 8px;
+    height: 8px;
+    z-index: -1;
+  }
+}
