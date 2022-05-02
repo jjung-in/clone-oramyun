@@ -6,6 +6,7 @@
   left: 0;
   background: #ffffff;
   border-bottom: 1px solid #eeeeee;
+  z-index: 20;
 
   .header_inwrap {
     display: flex;
@@ -113,93 +114,6 @@
 
 #nav {
   display: none;
-}
-
-@-webkit-keyframes floating {
-  from {
-    -webkit-transform: translate(-50% 0px);
-    transform: translate(-50% 0px);
-  }
-  13% {
-    -webkit-transform: translate(-50% 3px);
-    transform: translate(-50% 3px);
-  }
-  26% {
-    -webkit-transform: translate(-50% 0px);
-    transform: translate(-50% 0px);
-  }
-  38% {
-    -webkit-transform: translate(-50% 3px);
-    transform: translate(-50% 3px);
-  }
-  50% {
-    -webkit-transform: translate(-50% 0px);
-    transform: translate(-50% 0px);
-  }
-  to {
-    -webkit-transform: translate(-50% -0px);
-    transform: translate(-50% -0px);
-  }
-}
-
-@-moz-keyframes floating {
-  from {
-    -moz-transform: translate(-50% 0px);
-    transform: translate(-50% 0px);
-  }
-  13% {
-    -webkit-transform: translate(-50% 3px);
-    transform: translate(-50% 3px);
-  }
-  26% {
-    -webkit-transform: translate(-50% 0px);
-    transform: translate(-50% 0px);
-  }
-  38% {
-    -webkit-transform: translate(-50% 3px);
-    transform: translate(-50% 3px);
-  }
-  50% {
-    -webkit-transform: translate(-50% 0px);
-    transform: translate(-50% 0px);
-  }
-  to {
-    -moz-transform: translate(-50% -0px);
-    transform: translate(-50% -0px);
-  }
-}
-
-@keyframes floating {
-  from {
-    -webkit-transform: translate(-50%, 0px);
-    -moz-transform: translate(-50%, 0px);
-    transform: translate(-50%, 0px);
-  }
-  13% {
-    -webkit-transform: translate(-50%, 3px);
-    -moz-transform: translate(-50%, 3px);
-    transform: translate(-50%, 3px);
-  }
-  26% {
-    -webkit-transform: translate(-50%, 0px);
-    -moz-transform: translate(-50%, 0px);
-    transform: translate(-50%, 0px);
-  }
-  38% {
-    -webkit-transform: translate(-50%, 3px);
-    -moz-transform: translate(-50%, 3px);
-    transform: translate(-50%, 3px);
-  }
-  50% {
-    -webkit-transform: translate(-50%, 0px);
-    -moz-transform: translate(-50%, 0px);
-    transform: translate(-50%, 0px);
-  }
-  to {
-    -webkit-transform: translate(-50%, -0px);
-    -moz-transform: translate(-50%, -0px);
-    transform: translate(-50%, -0px);
-  }
 }
 
 @media screen and (max-width: 1280px) {
@@ -415,6 +329,7 @@
     left: 0;
     background-color: #fff;
     border-bottom: 1px solid #eeeeee;
+    z-index: 19;
 
     ul {
       display: flex;
@@ -430,7 +345,7 @@
         display: block;
         font-size: 1.6rem;
         line-height: 50px;
-        letter-spacing: -1px;
+        letter-spacing: -1.1px;
       }
     }
   }

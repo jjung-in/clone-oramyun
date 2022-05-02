@@ -5,7 +5,7 @@ import Section01 from "../../components/Section01/Section01";
 
 const Main = () => {
   return (
-    <div className="main_wrap">
+    <div id="main">
       <Section01 />
     </div>
   );
