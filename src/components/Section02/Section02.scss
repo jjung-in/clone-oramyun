@@ -1,0 +1,40 @@
+@import "../../config/variables.scss";
+
+#section02 {
+  padding: 100px 0;
+  background: #f7f8fb;
+  text-align: center;
+
+  h2 {
+    margin-bottom: 30px;
+    font-size: 5.4rem;
+    line-height: 1.2em;
+    letter-spacing: -3.5px;
+    font-family: "GmarketSansBold";
+  }
+
+  h4 {
+    font-size: 2.4rem;
+    line-height: 1.4em;
+    letter-spacing: -2.5px;
+    margin-bottom: 46px;
+  }
+}
+
+.c-point {
+  color: $orange;
+}
+
+@media screen and (max-width: 1080px) {
+  #section02 {
+    padding: 60px 0;
+
+    h2 {
+      font-size: 4.8rem;
+    }
+
+    h4 {
+      font-size: 2rem;
+    }
+  }
+}

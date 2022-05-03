@@ -1,12 +1,13 @@
 import React from "react";
-// import { Link } from "react-router-dom";
 import "./Main.scss";
 import Section01 from "../../components/Section01/Section01";
+import Section02 from "../../components/Section02/Section02";
 
 const Main = () => {
   return (
     <div id="main">
       <Section01 />
+      <Section02 />
     </div>
   );
 };
