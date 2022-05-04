@@ -1,0 +1,45 @@
+@import "../../config/variables.scss";
+
+#recommend {
+  flex: none;
+  margin-right: 160px;
+
+  .img_wrap {
+		position: relative;
+		margin-bottom: 40px;
+
+    img {
+      display: none;
+      width: 320px;
+
+      &.on {
+        display: block;
+      }
+    }
+  }
+
+  p {
+    font-size: 2rem;
+    font-family: "Noto Sans KR", sans-serif;
+    line-height: 1.4em;
+    letter-spacing: -2px;
+    font-weight: bold;
+
+    strong {
+    }
+  }
+
+  #roundRectangle {
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    span {
+      height: 50px;
+      line-height: 50px;
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+  }
+}

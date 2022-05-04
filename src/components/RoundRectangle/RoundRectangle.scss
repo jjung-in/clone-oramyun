@@ -6,13 +6,18 @@
   &.blue {
     span {
       background-color: $blue;
-      -webkit-box-shadow: 0px 7px 0px 0px rgba(6, 55, 123, 0.1);
-      -moz-box-shadow: 0px 7px 0px 0px rgba(6, 55, 123, 0.1);
-      box-shadow: 0px 7px 0px 0px rgba(6, 55, 123, 0.1);
     }
 
-    a:hover span {
-      background-color: #002e73;
+    a {
+      span {
+        -webkit-box-shadow: 0px 7px 0px 0px rgba(6, 55, 123, 0.1);
+        -moz-box-shadow: 0px 7px 0px 0px rgba(6, 55, 123, 0.1);
+        box-shadow: 0px 7px 0px 0px rgba(6, 55, 123, 0.1);
+      }
+
+      &:hover span {
+        background-color: #002e73;
+      }
     }
   }
 

@@ -1,0 +1,26 @@
+@import "../../config/variables.scss";
+
+#section03 {
+  padding: 120px 0;
+  background: #fff;
+  text-align: center;
+
+  h2 {
+    margin-bottom: 14px;
+    font-size: 5.4rem;
+    line-height: 1.2em;
+    letter-spacing: -2px;
+    font-family: "GmarketSansBold";
+  }
+
+  h4 {
+		margin-bottom: 60px;
+    font-size: 2.4rem;
+    line-height: 1.4em;
+    letter-spacing: -2px;
+  }
+
+	.recommend-slide {
+		display: flex;
+	}
+}
