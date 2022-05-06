@@ -5,8 +5,8 @@
   margin-right: 160px;
 
   .img_wrap {
-		position: relative;
-		margin-bottom: 40px;
+    position: relative;
+    margin-bottom: 40px;
 
     img {
       display: none;
@@ -24,9 +24,6 @@
     line-height: 1.4em;
     letter-spacing: -2px;
     font-weight: bold;
-
-    strong {
-    }
   }
 
   #roundRectangle {
@@ -41,5 +38,11 @@
       padding-top: 0;
       padding-bottom: 0;
     }
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  #recommend {
+    margin-right: 88px;
   }
 }

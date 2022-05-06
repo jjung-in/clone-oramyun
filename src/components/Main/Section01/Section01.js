@@ -1,10 +1,10 @@
 import React from "react";
 import "./Section01.scss";
-import RoundRectangle from "../RoundRectangle/RoundRectangle";
-import FoodCircle from "../FoodCircle/FoodCircle";
-import ramyun6 from "../../assets/6.png";
-import ramyun8 from "../../assets/8.png";
-import ramyun14 from "../../assets/14.png";
+import RoundRectangle from "../../RoundRectangle/RoundRectangle";
+import FoodCircle from "../../FoodCircle/FoodCircle";
+import ramyun6 from "../../../assets/6.png";
+import ramyun8 from "../../../assets/8.png";
+import ramyun14 from "../../../assets/14.png";
 
 function Section01() {
   const ramyunCircleArr1 = [{ ramyunImg: ramyun6 }, { ramyunImg: ramyun8 }, { ramyunImg: ramyun14 }, { ramyunImg: ramyun6 }, { ramyunImg: ramyun8 }, { ramyunImg: ramyun14 }, { ramyunImg: ramyun6 }, { ramyunImg: ramyun8 }, { ramyunImg: ramyun14 }, { ramyunImg: ramyun14 }];

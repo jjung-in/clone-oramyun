@@ -1,10 +1,10 @@
-@import "../../config/variables.scss";
+@import "../../../config/variables.scss";
 
 #section01 {
   position: relative;
   width: 100%;
   height: 815px;
-  background: url(../../assets/img_mainvisual_bg.png) bottom center;
+  background: url(../../../assets/img_mainvisual_bg.png) bottom center;
 
   .contents {
     padding-top: 80px;
@@ -38,12 +38,13 @@
     bottom: -14px;
     left: 50%;
     transform: translateX(-50%);
-    background: url(../../assets/img_mainvisual_under.png) 50% 50% /320px 168px no-repeat;
+    background: url(../../../assets/img_mainvisual_under.png) 50% 50% /320px 168px no-repeat;
   }
 }
 
 .ramyun-slide {
   margin-top: 50px;
+  overflow: hidden;
 
   .foodCircle_row {
     display: flex;
@@ -77,6 +78,7 @@
 
   .ramyun-slide {
     margin-top: 30px;
+    overflow: hidden;
 
     .foodCircle_row {
       display: flex;

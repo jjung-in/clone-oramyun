@@ -1,0 +1,85 @@
+@import "../../../config/variables.scss";
+
+#section07 {
+  min-height: 640px;
+  padding: 120px 0;
+  text-align: center;
+  background: #f7f8fb;
+  overflow: hidden;
+
+  .subscribe_box {
+    max-width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding: 50px 30px 0 30px;
+    border-radius: 48px;
+    background: url(../../../assets/img_subs_bg.png) bottom center no-repeat;
+    background-size: 100%;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 17px 32px 0px rgba(31, 31, 31, 0.027);
+    -moz-box-shadow: 0px 17px 32px 0px rgba(31, 31, 31, 0.027);
+    box-shadow: 0px 17px 32px 0px rgba(31, 31, 31, 0.027);
+
+    h5 {
+      margin-bottom: 10px;
+      color: $orange;
+      font-size: 2.4rem;
+      line-height: 1.2em;
+      letter-spacing: -1.5px;
+    }
+
+    h3 {
+      font-size: 4rem;
+      font-weight: 500;
+      line-height: 1.2em;
+      letter-spacing: -2.5px;
+    }
+  }
+
+  .button_wrap {
+    p {
+      margin-top: 18px;
+      color: #888888;
+      font-size: 1.5rem;
+      font-weight: 300;
+      font-family: "Noto Sans KR", sans-serif;
+      line-height: 1em;
+    }
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  #section07 {
+    .container {
+      padding: 0 14px;
+    }
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  #section07 {
+    padding: 60px 0;
+
+    .subscribe_box {
+      h5 {
+        font-size: 1.8rem;
+      }
+
+      h3 {
+        font-size: 3.2rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 640px) {
+  #section07 {
+    padding: 60px 0;
+
+    .subscribe_box {
+      height: 0;
+      padding-bottom: 100%;
+    }
+  }
+}

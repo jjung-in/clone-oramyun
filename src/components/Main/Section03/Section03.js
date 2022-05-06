@@ -1,8 +1,8 @@
 import React from "react";
 import "./Section03.scss";
-import Recommend from "../Recommend/Recommend";
-import sec03_img01 from "../../assets/img_sec02_img01.png";
-import sec03_img01on from "../../assets/img_sec02_img01on.png";
+import Recommend from "../../Recommend/Recommend";
+import sec03_img01 from "../../../assets/img_sec02_img01.png";
+import sec03_img01on from "../../../assets/img_sec02_img01on.png";
 
 function Section03() {
   return (

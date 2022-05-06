@@ -1,6 +1,6 @@
 import React from "react";
 import "./Section02.scss";
-import RoundRectangle from "../RoundRectangle/RoundRectangle";
+import RoundRectangle from "../../RoundRectangle/RoundRectangle";
 
 function Section02() {
   return (
