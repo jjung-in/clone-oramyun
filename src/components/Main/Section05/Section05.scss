@@ -1,1 +1,55 @@
 @import "../../../config/variables.scss";
+
+#section05 {
+  padding: 120px 0;
+  background: #ffc78e;
+  text-align: center;
+
+  h5 {
+    margin-bottom: 10px;
+    font-size: 2.4rem;
+    line-height: 1.2em;
+    letter-spacing: -1.5px;
+    color: $orange;
+  }
+
+  h3 {
+    font-size: 4rem;
+    line-height: 1.2em;
+    letter-spacing: -2.5px;
+  }
+
+  .review_box {
+    display: flex;
+    // justify-content: center;
+    // align-items: center;
+    margin-top: 30px;
+		overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  #section05 {
+    .container {
+      padding: 0 14px;
+    }
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  #section05 {
+    padding: 60px 0;
+
+    h5 {
+      font-size: 1.8rem;
+    }
+
+    h3 {
+      font-size: 3.2rem;
+    }
+
+    .review_box {
+      margin-top: 40px;
+    }
+  }
+}
